@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -43,13 +44,23 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://in.linkedin.com/in/siva-sriram-a-b-3b2aba24b"
+                href="https://www.linkedin.com/in/siva-sriram-a-b-1206ss/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
+            <li className="social-icons">
+            <a
+              href="mailto:sivasriram1206@gmail.com" // Replace with your Gmail email address
+              style={{ color: "white" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineMail /> 
+              </a>
+              </li>
             </li>
             <li className="social-icons">
               <a
