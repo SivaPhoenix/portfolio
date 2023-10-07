@@ -18,6 +18,9 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
+              <ImPointRight /> Coding
+            </li>
+            <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
