@@ -51,6 +51,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
+              </li>
             <li className="social-icons">
             <a
               href="mailto:sivasriram1206@gmail.com" // Replace with your Gmail email address
@@ -59,9 +60,9 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <AiOutlineMail /> 
-              </a>
-              </li>
+            </a>
             </li>
+            
             <li className="social-icons">
               <a
                 href="https://instagram.com/siva._.prince?igshid=MzRlODBiNWFlZA=="
