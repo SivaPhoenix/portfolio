@@ -5,7 +5,9 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineMail,
+  
 } from "react-icons/ai";
+// import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -51,7 +53,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-              </li>
+            </li>
             <li className="social-icons">
             <a
               href="mailto:sivasriram1206@gmail.com" // Replace with your Gmail email address
@@ -61,8 +63,7 @@ function Footer() {
             >
               <AiOutlineMail /> 
             </a>
-            </li>
-            
+            </li> 
             <li className="social-icons">
               <a
                 href="https://instagram.com/siva._.prince?igshid=MzRlODBiNWFlZA=="
@@ -71,8 +72,10 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+                
               </a>
             </li>
+            
           </ul>
         </Col>
       </Row>
