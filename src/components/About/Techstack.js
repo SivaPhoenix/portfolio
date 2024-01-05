@@ -18,8 +18,7 @@ import {
   SiHtml5,
   SiCss3,
 } from "react-icons/si";
-//import { TbBrandGolang } from "react-icons/tb";
-//import { IoMdHtml5 } from 'react-icons/io';
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
