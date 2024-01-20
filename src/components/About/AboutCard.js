@@ -27,7 +27,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "I trained $years to run 9 seconds and people give up when they don't see results in 2 month"{" "}
+            "I trained 4 years to run 9 seconds and people give up when they don't see results in 2 month"{" "}
           </p>
           <footer className="blockquote-footer">Usain Bolt</footer>
         </blockquote>
