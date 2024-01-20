@@ -8,7 +8,8 @@ import {
   SiAnaconda,
   SiAndroidstudio,
   SiPycharm,
-  SiNetlify
+  SiNetlify,
+  SiFigma
 } from "react-icons/si";
 
 function Toolstack() {
@@ -38,6 +39,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma/>
       </Col>
 
       
