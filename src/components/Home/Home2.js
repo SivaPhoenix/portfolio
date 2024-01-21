@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python,Java,Javascript,HTML,CSS,C,C++ and Flutter. </b>
+                <b className="purple"> Python,Java,Javascript,HTML,CSS,Tailwind CSS. </b>
               </i>
               <br />
               <br />
