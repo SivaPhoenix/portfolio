@@ -13,21 +13,11 @@ function AboutCard() {
             <br /> I am a third year student pursuing an B.Tech (Information Technology) in Sri Ramakrishna Engineering College,Coimbaore.
             <br />
             
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br/>
           </p>
-          <ul>
-           
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
+          <br/>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "I trained 4 years to run 9 seconds and people give up when they don't see results in 2 month"{" "}
+            "I trained $years to run 9 seconds and people give up when they don't see results in 2 month"{" "}
           </p>
           <footer className="blockquote-footer">Usain Bolt</footer>
         </blockquote>
