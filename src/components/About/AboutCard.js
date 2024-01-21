@@ -12,7 +12,6 @@ function AboutCard() {
             from <span className="purple"> Kallakurichi,Tamil Nadu,India.</span>
             <br /> I am a third year student pursuing an B.Tech (Information Technology) in Sri Ramakrishna Engineering College,Coimbaore.
             <br />
-            
             <br/>
           </p>
           <br/>
