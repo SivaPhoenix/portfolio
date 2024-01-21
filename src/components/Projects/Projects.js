@@ -23,7 +23,7 @@ function Projects() {
               imgPath={human}
               isBlog={false}
               title="Human Activity Recognition"
-              description="This project aims to develop a human activity recognition system using deep learning techniques, specifically the Residual Neural Network (ResNet) architecture. The system can analyze input data, such as sensor readings or video frames, and accurately classify the performed human activities."
+              description="This project aims to develop a human activity recognition system using deep learning techniques,specifically the Residual Neural Network (ResNet) architecture. The system can analyze input data, such as sensor readings or video frames, and accurately classify the performed human activities."
               ghLink="https://github.com/SivaPhoenix/human_activity_recognition"
              
             />
