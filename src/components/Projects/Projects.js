@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import aiwrite from "../../Assets/Projects/aiwrite.jpg";
 import human from "../../Assets/Projects/human.jpg";
 import retinal from "../../Assets/Projects/retinal.jpg";
+import siya from "../../Assets/Projects/siya.jpg";
 
 function Projects() {
   return (
@@ -26,6 +27,17 @@ function Projects() {
               description="This project aims to develop a human activity recognition system using deep learning techniques,specifically the Residual Neural Network (ResNet) architecture. The system can analyze input data, such as sensor readings or video frames, and accurately classify the performed human activities."
               ghLink="https://github.com/SivaPhoenix/human_activity_recognition"
              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={siya}
+              isBlog={false}
+              title="Siya - A Health Assisant"
+              description="It is an web application made with reacts. It will predict the disease and suggest the precautions with symptoms as a input"
+              // ghLink="https://github.com/SivaPhoenix/awesome-retinal-analysis"
+              demoLink="https://siya-two.vercel.app/"
             />
           </Col>
 
