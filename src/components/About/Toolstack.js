@@ -4,7 +4,6 @@ import {
   SiVisualstudiocode,
   SiVercel,
   SiAdobephotoshop,
-  SiAmazonaws,
   SiAnaconda,
   SiAndroidstudio,
   SiPycharm,
