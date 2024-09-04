@@ -5,6 +5,7 @@ import {
   SiVercel,
   SiAdobephotoshop,
   SiAnaconda,
+  SiRender,
   SiAndroidstudio,
   SiPycharm,
   SiNetlify,
@@ -20,6 +21,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         < SiVercel/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRender/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
