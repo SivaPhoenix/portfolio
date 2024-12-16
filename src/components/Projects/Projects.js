@@ -6,6 +6,7 @@ import aiwrite from "../../Assets/Projects/aiwrite.jpg";
 import human from "../../Assets/Projects/human.jpg";
 import retinal from "../../Assets/Projects/retinal.jpg";
 import siya from "../../Assets/Projects/siya.jpg";
+import notesAppImage from "../../Assets/Projects/notes_app.png";
 
 function Projects() {
   return (
@@ -19,16 +20,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={human}
-              isBlog={false}
-              title="Human Activity Recognition"
-              description="This project aims to develop a human activity recognition system using deep learning techniques,specifically the Residual Neural Network (ResNet) architecture. The system can analyze input data, such as sensor readings or video frames, and accurately classify the performed human activities."
-              ghLink="https://github.com/SivaPhoenix/human_activity_recognition"
-             
-            />
+              <ProjectCard
+                imgPath={notesAppImage} // Replace with the image path for the Notes App
+                isBlog={false}
+                title="Notes App"
+                description="A feature-rich notes application built with React.js, allowing users to create, edit, delete, and pin notes. Fully responsive and deployed for seamless productivity."
+                ghLink="https://github.com/SivaPhoenix/notes_app_frontend" // Uncomment and replace with the actual GitHub link if available
+                demoLink="https://notes-app-tawny-kappa.vercel.app/"
+          />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -38,6 +41,16 @@ function Projects() {
               description="It is an web application made with reacts. It will predict the disease and suggest the precautions with symptoms as a input"
               // ghLink="https://github.com/SivaPhoenix/awesome-retinal-analysis"
               demoLink="https://siya-two.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={human}
+              isBlog={false}
+              title="Human Activity Recognition"
+              description="This project aims to develop a human activity recognition system using deep learning techniques,specifically the Residual Neural Network (ResNet) architecture. The system can analyze input data, such as sensor readings or video frames, and accurately classify the performed human activities."
+              ghLink="https://github.com/SivaPhoenix/human_activity_recognition"
+             
             />
           </Col>
 
