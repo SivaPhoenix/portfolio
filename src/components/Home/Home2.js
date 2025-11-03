@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python,Java,Javascript,HTML,CSS,Tailwind CSS. </b>
+                <b className="purple"> Python,Java,Javascript,ReactJS,Tailwind CSS. </b>
               </i>
               <br />
               <br />
@@ -125,3 +125,4 @@ function Home2() {
   );
 }
 export default Home2;
+
