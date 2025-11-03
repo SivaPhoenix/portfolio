@@ -9,7 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Siva Sriram </span>
             from <span className="purple"> Kallakurichi,Tamil Nadu,India.</span>
-            <br /> I am a final year student pursuing an B.Tech (Information Technology) in Sri Ramakrishna Engineering College,Coimbaore.
+            <br /> I am currently working as a Software Engineer Trainee at Solution Solutions Pvt Ltd, Chennai, Tamil Nadu.
             <br />
             <br/>
           </p>
@@ -25,3 +25,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
